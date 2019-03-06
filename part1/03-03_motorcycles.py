@@ -1,16 +1,20 @@
 
-# replacing an element
-motorcycles = ['honda', 'yamaha', 'suzuki']
+# append elements to an empty list
+motorcycles = []
+motorcycles.append('honda')
+motorcycles.append('yamaha')
+motorcycles.append('suzuki')
 print(motorcycles)
 
+# replace 1st element
 motorcycles[0] = 'ducati'
 print(motorcycles)
 
-# appending an element
+# append an element
 motorcycles.append('harley davidson')
 print(motorcycles)
 
-# inserting at a defined position
+# inserting at 1st position
 motorcycles.insert(0, 'kawasaki')
 print(motorcycles)
 
@@ -31,7 +35,7 @@ print(f"The first motorcycle I owned was a {first_owned.title()}.")
 motorcycles.remove('suzuki')
 print(motorcycles)
 
-# 
+# remove by value using a variable
 motorcycles = ['honda', 'yamaha', 'suzuki', 'ducati']
 print(motorcycles)
 too_expensive = 'ducati'
