@@ -17,3 +17,8 @@ print(immutables)
 # re-creation of the complete tuple is fine
 immutables = ('earth', 'wind', 'fire')
 print(immutables)
+
+# 3. Empty List evaluates to False
+favorite_books = []
+if not favorite_books:
+	print('Seems you are not a bookworm!')
