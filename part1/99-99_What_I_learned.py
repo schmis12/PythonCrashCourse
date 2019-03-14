@@ -22,3 +22,16 @@ print(immutables)
 favorite_books = []
 if not favorite_books:
 	print('Seems you are not a bookworm!')
+
+# 4. Dictionary functions
+user = {
+    'username': 'schmis12',
+    'f_name': 'Stefan',
+    'l_name': 'Schmidt',
+}
+print(user.items())
+print(user.keys())
+print(user.values())
+
+# 5. Set removes duplicates
+print(set(['python', 'c', 'ruby', 'python']))
