@@ -35,3 +35,10 @@ print(user.values())
 
 # 5. Set removes duplicates
 print(set(['python', 'c', 'ruby', 'python']))
+
+# 6. store user input
+name = input("Enter your name: ")
+
+# 7. cast numerical input
+age = int(input("Enter your age: "))
+

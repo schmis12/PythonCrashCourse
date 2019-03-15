@@ -5,3 +5,6 @@ prompt += "\nWhat is your first name? "
 
 name = input(prompt)
 print(f"Hello, {name}!")
+
+age = input("How old are you? ")
+print(age)
